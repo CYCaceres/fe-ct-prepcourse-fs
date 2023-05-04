@@ -171,7 +171,7 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
    // PorcentajeDeDescuento ---> 0.2
    // Precio final ---> 8
    // Tu código:
-   objetoProducto.calcularPrecioDescuento = function(){
+   objetoProducto.calcularPrecioDescuento = function(){ //elaboramos un método(calcularPrecioDescuento) que se aplica a este párametro(objetoProduct)
       return this.precio - (this.precio * this.porcentajeDeDescuento);
    }
    return objetoProducto;
